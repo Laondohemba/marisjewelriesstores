@@ -1,23 +1,24 @@
-// product 10
-let product10 = document.getElementById("product10");
-let cost10 = document.getElementById("price10");
+// from 401 to 500 
+// product 401
+let product401 = document.getElementById("product401");
+let cost401 = document.getElementById("price401");
 
-document.getElementById("buy_now_btn10").addEventListener("click", function(){
-    buyNow(product10, cost10);
+document.getElementById("buy_now_btn401").addEventListener("click", function(){
+    buyNow(product401, cost401);
 });
 
-// product 11
-let product11 = document.getElementById("product11");
-let cost11 = document.getElementById("price11");
+// product 402
+let product402 = document.getElementById("product402");
+let cost402 = document.getElementById("price402");
 
-document.getElementById("buy_now_btn11").addEventListener("click", function(){
-    buyNow(product11, cost11);
+document.getElementById("buy_now_btn402").addEventListener("click", function(){
+    buyNow(product402, cost402);
 });
 
-// product 12
-let product12 = document.getElementById("product12");
-let cost12 = document.getElementById("price12");
+// product 403
+let product403 = document.getElementById("product403");
+let cost403 = document.getElementById("price403");
 
-document.getElementById("buy_now_btn12").addEventListener("click", function(){
-    buyNow(product12, cost12);
+document.getElementById("buy_now_btn403").addEventListener("click", function(){
+    buyNow(product403, cost403);
 });

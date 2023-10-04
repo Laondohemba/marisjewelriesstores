@@ -1,24 +1,23 @@
+// from 301 to 400 = earrings
+// product 301
+let product301 = document.getElementById("product301");
+let cost301 = document.getElementById("price301");
 
-// product 7
-let product7 = document.getElementById("product7");
-let cost7 = document.getElementById("price7");
-
-document.getElementById("buy_now_btn7").addEventListener("click", function(){
-    buyNow(product7, cost7);
+document.getElementById("buy_now_btn301").addEventListener("click", function(){
+    buyNow(product301, cost301);
 });
 
-// product 8
-let product8 = document.getElementById("product8");
-let cost8 = document.getElementById("price8");
+// product 302
+let product302 = document.getElementById("product302");
+let cost302 = document.getElementById("price302");
 
-document.getElementById("buy_now_btn8").addEventListener("click", function(){
-    buyNow(product8, cost8);
+document.getElementById("buy_now_btn302").addEventListener("click", function(){
+    buyNow(product302, cost302);
 });
+// product 303
+let product303 = document.getElementById("product303");
+let cost303 = document.getElementById("price303");
 
-// product 9
-let product9 = document.getElementById("product9");
-let cost9 = document.getElementById("price9");
-
-document.getElementById("buy_now_btn9").addEventListener("click", function(){
-    buyNow(product9, cost9);
+document.getElementById("buy_now_btn303").addEventListener("click", function(){
+    buyNow(product303, cost303);
 });
